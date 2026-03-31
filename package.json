@@ -1,0 +1,34 @@
+{
+  "name": "github-graph-art",
+  "version": "1.0.0",
+  "description": "Turn your GitHub contribution graph into a canvas — write words, draw patterns, and make your profile stand out.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "preview": "node -e \"import('./index.js').then(m => m.makeTextArt('HELLO', 0, 'heavy', true))\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kushdeveloper68/contribution-graph.git"
+  },
+  "keywords": [
+    "github",
+    "contribution-graph",
+    "git",
+    "pixel-art",
+    "commit-art",
+    "graph-art"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kushdeveloper68/contribution-graph/issues"
+  },
+  "homepage": "https://github.com/Kushdeveloper68/contribution-graph#readme",
+  "dependencies": {
+    "jsonfile": "^6.2.0",
+    "moment": "^2.30.1",
+    "random": "^5.4.1",
+    "simple-git": "^3.33.0"
+  }
+}
